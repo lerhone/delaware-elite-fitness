@@ -1,7 +1,7 @@
 <nav>
 	<ul>
-		<li id="nav_home"><a href="" title=""<? if($nav_on=='home') { echo ' class="on"';} ?>>Home</a></li>
-		<li id="nav_about"><a href="" title=""<? if($nav_on=='about') { echo ' class="on"';} ?>>About</a></li>
+		<li id="nav_home"><a href="/" title=""<? if($nav_on=='home') { echo ' class="on"';} ?>>Home</a></li>
+		<li id="nav_about"><a href="/about.php" title=""<? if($nav_on=='about') { echo ' class="on"';} ?>>About</a></li>
 		<li id="nav_staff"><a href="" title=""<? if($nav_on=='staff') { echo ' class="on"';} ?>>Staff</a></li>
 		<li id="nav_schedule"><a href="" title=""<? if($nav_on=='schedule') { echo ' class="on"';} ?>>Schedule</a></li>
 		<li id="nav_news"><a href="" title=""<? if($nav_on=='news') { echo ' class="on"';} ?>>News</a></li>

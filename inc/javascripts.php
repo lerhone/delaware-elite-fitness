@@ -18,4 +18,35 @@
 		g.src = ('https:' == location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		s.parentNode.insertBefore(g, s);
 		})(document, 'script');
+		
+		$(document).ready(function(){
+			$('#tabs_workout div').hide();
+			$('#tabs_workout div:first').show();
+			$('#tabs_workout ul li:first').addClass('active');
+			
+			$('#tabs_workout ul li a').click(function(){
+				$('#tabs_workout ul li').removeClass('active');
+				$(this).parent().addClass('active');
+				var currentTab = $(this).attr('href');
+				$('#tabs_workout div').hide();
+				$(currentTab).show();
+				return false;
+			});
+			
+			$('#tabs_news div').hide();
+			$('#tabs_news div:first').show();
+			$('#tabs_news ul li:first').addClass('active');
+			
+			$('#tabs_news ul li a').click(function(){
+				$('#tabs_news ul li').removeClass('active');
+				$(this).parent().addClass('active');
+				var currentTab = $(this).attr('href');
+				$('#tabs_news div').hide();
+				$(currentTab).show();
+				return false;
+			});
+
+		});
+		
+		
 	</script>

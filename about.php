@@ -1,40 +1,45 @@
 <?
-$title = 'Home';
-$nav_on = 'home';
+$title = 'About';
+$nav_on = 'about';
 
 include('inc/header.php'); ?>	
 	
-	<div id="contentmain">
+	<div id="contentmain" class="subpage">
 	
 		<div id="contentmain_left">
-			<div id="callout_home_wrapper">
-				<p class="callout_home">Pain of discipline,</p>
-				<p class="callout_home">Pain of regret</p>
-				<p class="callout_home blue">Take your pick</p>
+			
+			<div class="content_block left">
+				<h3 class="txt_headline left">About Delaware Elite Fitness</h3>
+				<p>Sed egestas, ante et <a href="#">vulputate</a> volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volu tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
+				
+				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.</p>
+			
+				<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
 			</div>
-			<!--end #callout_home_wrapper -->
 				
-			<h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit pellentes que aliquet.</h3>
+			
+			<div class="content_block left">
+				<h3 class="txt_headline left">About Crossfit</h3>
+				<p>Sed egestas, ante et <a href="#">vulputate</a> volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volu tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
 				
-			<p>Sed egestas, ante et <a href="#">vulputate</a> volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volu tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
-				
-			<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.</p>
-				
-			<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
-				
-			<div id="wrapper_schedule" class="left">
-				<h3 class="txt_headline left">Schedule Classes</h3>
-				<ul id="schedule">
-					<li class="first"><img src="images/img_schedule_1.jpg" width="138" height="90" alt="Schedule"></li>
-					<li><img src="images/img_schedule_2.jpg" width="138" height="90" alt="Schedule"></li>
-					<li class="last"><img src="images/img_schedule_3.jpg" width="138" height="90" alt="Schedule"></li>
-				</ul>
-				<div class="btn_wrapper left">
-					<a class="btn left first" href="#">Lewes schedule <span class="arrow_right">&rsaquo;</span></a>
-					<a class="btn left last" href="#">Riverfront schedule <span class="arrow_right">&rsaquo;</span></a>
-				</div>
+				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.</p>
+			
+				<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
 			</div>
-			<!--end #wrapper_schedule -->
+			
+			<div class="content_block left">
+				<h3 class="txt_headline left">Membership Options</h3>
+				
+				<h4>Crossfit Lewes</h4>
+				<p>CrossFit Riverfront has created packages for clients who are interested in committing to a program for 1, 6, and 12 months! When you take advantage of the 6 &amp; 12 month commitment you have the opportunity to receive discount on your program.</p>
+				
+				<p>Contracts are non-refundable, though they can be frozen one time during the agreement period, for a maximum of 60 days</p>
+				
+				<p>On the monthly auto pay we need 30 days notice to cancel.</p>
+				
+				<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
+			</div>
+				
 		</div>
 		<!-- end #contentmain_left -->
 		
