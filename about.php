@@ -9,7 +9,9 @@ include('inc/header.php'); ?>
 		<div id="contentmain_left">
 			
 			<div class="content_block left">
-				<h3 class="txt_headline left">About Delaware Elite Fitness</h3>
+				<div class="content_block_top left">
+					<h2 class="txt_headline left">About Delaware Elite Fitness</h2>
+				</div>
 				<p>Sed egestas, ante et <a href="#">vulputate</a> volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volu tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
 				
 				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.</p>
@@ -19,17 +21,20 @@ include('inc/header.php'); ?>
 				
 			
 			<div class="content_block left">
-				<h3 class="txt_headline left">About Crossfit</h3>
+				<div class="content_block_top left">				
+					<h2 class="txt_headline left">About Crossfit</h2>
+				</div>
 				<p>Sed egestas, ante et <a href="#">vulputate</a> volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor. Sed semper lorem at felis. Vestibulum volu tpat, lacus a ultrices sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna.</p>
 				
 				<p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus. Praesent elementum hendrerit tortor.</p>
 			
-				<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
+				<a class="btn left" href="#">Learn more about CrossFit <span class="arrow_right">&rsaquo;</span></a>
 			</div>
 			
 			<div class="content_block left">
-				<h3 class="txt_headline left">Membership Options</h3>
-				
+				<div class="content_block_top left">
+					<h2 class="txt_headline left">Membership Options</h2>
+				</div>
 				<h4>Crossfit Lewes</h4>
 				<p>CrossFit Riverfront has created packages for clients who are interested in committing to a program for 1, 6, and 12 months! When you take advantage of the 6 &amp; 12 month commitment you have the opportunity to receive discount on your program.</p>
 				
@@ -37,7 +42,8 @@ include('inc/header.php'); ?>
 				
 				<p>On the monthly auto pay we need 30 days notice to cancel.</p>
 				
-				<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
+				<h5>Elements:</h5>
+				<p>$50.00 for first 2; $25.00/each hour after if needed.</p>
 			</div>
 				
 		</div>
@@ -46,7 +52,7 @@ include('inc/header.php'); ?>
 		<div id="contentmain_right">
 			<div id="wrapper_workouts" class="left">
 				<div class="top left">
-					<h3 class="txt_headline left">Workouts</h3>
+					<h2 class="txt_headline left">Workouts</h2>
 				</div>
 				<div id="tabs_workout" class="left">
 					<ul class="nav">
@@ -118,7 +124,7 @@ include('inc/header.php'); ?>
 				
 			<div id="wrapper_news" class="left">
 				<div class="top left">
-					<h3 class="txt_headline left">News</h3>
+					<h2 class="txt_headline left">News</h2>
 				</div>
 				<div id="tabs_news">
 					<ul class="nav">
@@ -128,7 +134,7 @@ include('inc/header.php'); ?>
 				   	<div id="news-lewes" class="left">
 						<span class="content-top left">
 							<span class="news-image left"><img src="images/img_news_1.jpg" width="236" height="65" alt="Img News"></span>
-							<span class="news-title">A news entry title would go right here</span>
+							<span class="news-title"><a href="#">A news entry title would go right here</a></span>
 							<span class="news-date">03/10/2011</span>
 							<span class="news-content left">
 								<p>
@@ -150,7 +156,7 @@ include('inc/header.php'); ?>
 				   <div id="news-riverfront" class="left">
 						<span class="content-top left">
 							<span class="news-image left"><img src="images/img_news_1.jpg" width="236" height="65" alt="Img News"></span>
-							<span class="news-title">A news entry title that happens to be much longer would go right here</span>
+							<span class="news-title"><a href="#">A news entry title that happens to be much longer would go right here</a></span>
 							<span class="news-date">03/10/2011</span>
 							<span class="news-content left">
 								<p>For time:</p>

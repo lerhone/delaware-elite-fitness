@@ -124,7 +124,7 @@ h3 { font: 18px/21px Arial, sans-serif;
 	color: #ff6600;
 }
 
-h3.txt_headline{
+h2.txt_headline{
 	color: #ffffff;
 	font: 24px/20.96px 'GiantBackground',sans-serif;
 	padding: 5px 10px;
@@ -146,6 +146,7 @@ h1, h2, h3 { margin: 0; padding: 0 0 13px 0;}
 
 #contentmain_left .btn{
 	margin-top: 8px;
+	margin-bottom: 21px;
 }
 
 .btn { 
@@ -254,9 +255,13 @@ p.callout_home.last{
 	margin-top: -104px;
 }
 
-.content_block h3{
+.content_block h2{
 	margin-left: -8px;
 	margin-bottom: 15px;
+}
+
+.content_block_top{
+	width: 505px;
 }
 
 #contentmain_right {

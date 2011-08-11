@@ -23,7 +23,7 @@ include('inc/header.php'); ?>
 			<a class="btn left" href="#">Click  here to get started <span class="arrow_right">&rsaquo;</span></a>
 				
 			<div id="wrapper_schedule" class="left">
-				<h3 class="txt_headline left">Schedule Classes</h3>
+				<h2 class="txt_headline left">Schedule Classes</h2>
 				<ul id="schedule">
 					<li class="first"><img src="images/img_schedule_1.jpg" width="138" height="90" alt="Schedule"></li>
 					<li><img src="images/img_schedule_2.jpg" width="138" height="90" alt="Schedule"></li>
@@ -41,7 +41,7 @@ include('inc/header.php'); ?>
 		<div id="contentmain_right">
 			<div id="wrapper_workouts" class="left">
 				<div class="top left">
-					<h3 class="txt_headline left">Workouts</h3>
+					<h2 class="txt_headline left">Workouts</h2>
 				</div>
 				<div id="tabs_workout" class="left">
 					<ul class="nav">
@@ -113,7 +113,7 @@ include('inc/header.php'); ?>
 				
 			<div id="wrapper_news" class="left">
 				<div class="top left">
-					<h3 class="txt_headline left">News</h3>
+					<h2 class="txt_headline left">News</h2>
 				</div>
 				<div id="tabs_news">
 					<ul class="nav">
@@ -123,7 +123,7 @@ include('inc/header.php'); ?>
 				   	<div id="news-lewes" class="left">
 						<span class="content-top left">
 							<span class="news-image left"><img src="images/img_news_1.jpg" width="236" height="65" alt="Img News"></span>
-							<span class="news-title">A news entry title would go right here</span>
+							<span class="news-title"><a href="#">A news entry title would go right here</a></span>
 							<span class="news-date">03/10/2011</span>
 							<span class="news-content left">
 								<p>
@@ -145,7 +145,7 @@ include('inc/header.php'); ?>
 				   <div id="news-riverfront" class="left">
 						<span class="content-top left">
 							<span class="news-image left"><img src="images/img_news_1.jpg" width="236" height="65" alt="Img News"></span>
-							<span class="news-title">A news entry title that happens to be much longer would go right here</span>
+							<span class="news-title"><a href="#">A news entry title that happens to be much longer would go right here</a></span>
 							<span class="news-date">03/10/2011</span>
 							<span class="news-content left">
 								<p>For time:</p>
