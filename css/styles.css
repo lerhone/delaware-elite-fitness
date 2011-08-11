@@ -162,6 +162,13 @@ h1, h2, h3 { margin: 0; padding: 0 0 13px 0;}
 	color: #fff;
 }
 
+.post .btn { 
+	margin-bottom: 7px;
+	padding: 2px 5px;
+	font-size: 10px;
+}
+
+
 /*.btn_wrapper{
 	margin-top: 8px;
 }*/
@@ -172,6 +179,56 @@ h1, h2, h3 { margin: 0; padding: 0 0 13px 0;}
 
 .block{
 	display: block;
+}
+
+.post{
+	width: 505px;
+	margin-bottom: 21px;
+	border-bottom: 2px dashed #231f20;
+}
+
+.post.first{
+	margin-top: 12px;
+}
+
+.post.full{
+	padding-bottom: 12px;
+}
+
+.post .title{
+	font-size: 14px;
+	line-height: 11px;
+	margin-bottom: 8px;
+}
+
+.post .date{
+	color: #ff6600;		
+}
+
+.post .meta{
+	margin-bottom: 8px;
+	font-size: 10px;
+}
+
+#categories_wrapper{
+	margin-top: 12px;
+}
+
+#categories_wrapper ul{
+	float: left;
+	position: relative;
+	margin-top: 8px;
+}
+
+#categories_wrapper li{
+	float: left;
+	position: relative;
+	width: 305px;
+	list-style: none;
+}
+
+#categories_wrapper a.active{
+	color: #ff6600;
 }
 
 /* Basic Structure -------------- */
@@ -260,8 +317,38 @@ p.callout_home.last{
 	margin-bottom: 15px;
 }
 
+.content_block h4{
+	float: left;
+	position: relative;
+	width: 505px;
+	color: #ff6600;
+	margin-bottom: 4px;
+}
+
+.content_block h5{
+	float: left;
+	position: relative;
+	width: 505px;
+	color: #ff6600;
+	margin-bottom: 2px;
+}
+
 .content_block_top{
 	width: 505px;
+}
+
+.content_block ul{
+	display: block;
+	list-style: none;
+	font-size: 11px;
+	line-height: 21px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.content_block .map{
+	border: 6px solid #000;
+	margin-bottom: 8px;;
 }
 
 #contentmain_right {
@@ -276,26 +363,30 @@ p.callout_home.last{
 	margin-top: 16px;
 }
 
-#wrapper_schedule ul{
+.wrapper_staff{
+	margin-bottom: 21px;
+}
+
+#wrapper_schedule ul, .wrapper_staff ul{
 	background: #000;
 	float: left;
 	padding: 10px;
 	margin-top: 8px;
 }
 
-#wrapper_schedule li{
+#wrapper_schedule li, .wrapper_staff li{
 	float: left;
 	list-style-type: none;
 	border: 3px solid #272727;
 	margin-right: 7px;
 }
 
-#wrapper_schedule li.last{
+#wrapper_schedule li.last, .wrapper_staff li.last{
 	margin-right: 0;
 }
 
 
-#wrapper_schedule img{
+#wrapper_schedule img, .wrapper_staff img{
 	border: 2px solid #000;
 }
 
@@ -444,6 +535,55 @@ p.callout_home.last{
 
 #wrapper_news{
 	width: 305px;
+}
+
+#gallery_wrapper{
+	margin-bottom: 21px;
+}
+
+#gallery_wrapper .picture{
+	margin-right: 19px;
+	margin-bottom: 19px;
+}
+
+#gallery_wrapper .picture .title{
+	margin-top: 12px;
+	text-align: center;
+}
+
+#gallery_wrapper .img img{
+	border: 2px solid #000;
+	margin-bottom: -4px;
+}
+
+#gallery_wrapper .img_inner{
+	border: 3px solid #131313;
+}
+
+#gallery_wrapper .img{
+	border: 6px solid #000;
+}
+
+#video_wrapper{
+	margin-bottom: 21px;
+}
+
+#video_wrapper .video img{
+	border: 2px solid #000;
+	margin-bottom: -4px;
+}
+
+#video_wrapper .video_inner{
+	border: 3px solid #131313;
+}
+
+#video_wrapper .video{
+	border: 6px solid #000;
+}
+
+#video_wrapper .video_outter .title{
+	margin-top: 12px;
+	text-align: center;
 }
 
 /* Navigation Styles --------------  */
