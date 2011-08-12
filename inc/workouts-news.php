@@ -12,7 +12,7 @@
 							<span class="workouts-date">Tuesday 03/12/2011</span>
 						   	<span class="workouts-title">&quot;Workout Title&quot;</span>
 							<span class="workouts-content left">
-								<p>For time:</p>
+								<span>For time:</span>
 									<ul>
 										<li>70 Burpees</li>
 										<li>60 Sit-ups</li>
@@ -20,7 +20,7 @@
 										<li>40 Pull-ups</li>
 										<li>30 Handstand Pushups</li>
 									</ul>
-								<p><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></p>
+								<span><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></span>
 							</span>
 						</span>
 						<!-- end .content-top -->
@@ -39,7 +39,7 @@
 							<span class="workouts-date">Tuesday 07/15/2011</span>
 							<span class="workouts-title">&quot;Workout Title&quot;</span>
 							<span class="workouts-content left">
-								<p>For time:</p>
+								<span>For time:</span>
 									<ul>
 										<li>50 Burpees</li>
 										<li>20 Sit-ups</li>
@@ -52,7 +52,7 @@
 										<li>40 Pull-ups</li>
 										<li>30 Handstand Pushups</li>
 									</ul>
-								<p><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></p>
+								<span><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></span>
 							</span>
 						</span>
 						<!-- end .content-top -->
@@ -88,7 +88,7 @@
 								<p>
 									Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.
 								</p>
-								<p><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></p>
+								<span><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></span>
 							</span>
 						</span>
 						<!-- end .content-top -->
@@ -107,7 +107,7 @@
 							<span class="news-title"><a href="#">A news entry title that happens to be much longer would go right here</a></span>
 							<span class="news-date">03/10/2011</span>
 							<span class="news-content left">
-								<p>For time:</p>
+								<span>For time:</span>
 									<ul>
 										<li>50 Burpees</li>
 										<li>20 Sit-ups</li>
@@ -115,7 +115,7 @@
 										<li>50 Pull-ups</li>
 										<li>70 Handstand Pushups</li>
 									</ul>
-								<p><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></p>
+								<span><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></span>
 							</span>
 						</span>
 						<!-- end .content-top -->

@@ -12,7 +12,7 @@
 							<span class="workouts-date">Tuesday 03/12/2011</span>
 						   	<span class="workouts-title">&quot;Workout Title&quot;</span>
 							<span class="workouts-content left">
-								<p>For time:</p>
+								<span>For time:</span>
 									<ul>
 										<li>70 Burpees</li>
 										<li>60 Sit-ups</li>
@@ -20,7 +20,7 @@
 										<li>40 Pull-ups</li>
 										<li>30 Handstand Pushups</li>
 									</ul>
-								<p><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></p>
+								<span><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></span>
 							</span>
 						</span>
 						<!-- end .content-top -->
@@ -39,7 +39,7 @@
 							<span class="workouts-date">Tuesday 07/15/2011</span>
 							<span class="workouts-title">&quot;Workout Title&quot;</span>
 							<span class="workouts-content left">
-								<p>For time:</p>
+								<span>For time:</span>
 									<ul>
 										<li>50 Burpees</li>
 										<li>20 Sit-ups</li>
@@ -52,7 +52,7 @@
 										<li>40 Pull-ups</li>
 										<li>30 Handstand Pushups</li>
 									</ul>
-								<p><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></p>
+								<span><a href="#">See all workouts <span class="arrow_right">&rsaquo;</span></a></span>
 							</span>
 						</span>
 						<!-- end .content-top -->

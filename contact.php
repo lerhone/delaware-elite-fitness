@@ -14,7 +14,7 @@ include('inc/header.php'); ?>
 				</div>
 				
 				<div class="map left">
-					<iframe width="480" height="205" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=crossfit+32379+Lewes+Georgetown+Highway,+Lewes,+DE+19958-1676&amp;hl=en&amp;gl=us&amp;sll=38.736406,-75.224148&amp;sspn=0.083931,0.186556&amp;ie=UTF8&amp;view=map&amp;f=d&amp;daddr=32379+Lewes+Georgetown+Highway,+Lewes,+DE+19958-1676&amp;geocode=CQJ8xH3LrnePFRYSTwIdrCuE-yHlthOmKEcmtg&amp;vpsrc=0&amp;ll=38.736406,-75.224148&amp;spn=0.006295,0.00807&amp;output=embed"></iframe>
+					<iframe width="480" height="205" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=crossfit+32379+Lewes+Georgetown+Highway,+Lewes,+DE+19958-1676&amp;hl=en&amp;gl=us&amp;sll=38.736406,-75.224148&amp;sspn=0.083931,0.186556&amp;ie=UTF8&amp;view=map&amp;f=d&amp;daddr=32379+Lewes+Georgetown+Highway,+Lewes,+DE+19958-1676&amp;geocode=CQJ8xH3LrnePFRYSTwIdrCuE-yHlthOmKEcmtg&amp;vpsrc=0&amp;ll=38.736406,-75.224148&amp;spn=0.006295,0.00807&amp;output=embed"></iframe>`
 				</div>
 				
 				<h5>Address</h5>
